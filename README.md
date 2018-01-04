@@ -1,4 +1,5 @@
-# myplura [![Build Status](https://travis-ci.org/ayshiff/myplura.svg?branch=master)](https://travis-ci.org/ayshiff/myplura)
+# myplura 
+[![Build Status](https://travis-ci.org/ayshiff/myplura.svg?branch=master)](https://travis-ci.org/ayshiff/myplura)
 
 A Node.js module that returns the plural form of any noun
 
@@ -12,7 +13,7 @@ bower install plura --save
 ### Javascript
 ```javascript
 var plura = require('myplura');
-var boys = pluralise.getPlural('Boy');
+var boys = plura.getPlural('Boy');
 ```
 ```sh
 Output should be 'Boys'
@@ -28,7 +29,7 @@ Output should be 'Geese'
 ### AMD
 ```javascript
 define(function(require,exports,module){
-  var pluralise = require('myplura');
+  var plura = require('myplura');
 });
 ```
 ## Test 
