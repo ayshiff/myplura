@@ -1,0 +1,31 @@
+{
+  "name": "myplura",
+  "version": "1.0.0",
+  "description": "A Node.js module that returns the plural form of any noun",
+  "main": "dist/index.js",
+ "types" : "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayshiff/myplura.git"
+  },
+  "author": "ayshiff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayshiff/myplura/issues"
+  },
+  "homepage": "https://github.com/ayshiff/myplura#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/pluralize": "0.0.27",
+    "pluralize": "^7.0.0"
+  }
+}
