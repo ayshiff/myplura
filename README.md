@@ -1,4 +1,4 @@
-# myplura
+# myplura [![Build Status](https://travis-ci.org/ayshiff/myplura.svg?branch=master)](https://travis-ci.org/ayshiff/myplura)
 
 A Node.js module that returns the plural form of any noun
 
