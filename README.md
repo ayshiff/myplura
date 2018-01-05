@@ -1,5 +1,6 @@
 # myplura 
 [![Build Status](https://travis-ci.org/ayshiff/myplura.svg?branch=master)](https://travis-ci.org/ayshiff/myplura)
+[![Coverage Status](https://coveralls.io/repos/github/ayshiff/myplura/badge.svg?branch=master)](https://coveralls.io/github/ayshiff/myplura?branch=master)
 
 A Node.js module that returns the plural form of any noun
 
