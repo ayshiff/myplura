@@ -27,12 +27,7 @@ console.log(getPlural('Goose'))
 ```sh
 Output should be 'Geese'
 ```
-### AMD
-```javascript
-define(function(require,exports,module){
-  var plura = require('myplura');
-});
-```
+
 ## Test 
 ```sh
 npm run test
